@@ -125,7 +125,7 @@ npm start
 ```
 
 ### Open in browser:
-- **Frontend → http://localhost:5137**
+- **Frontend → http://localhost:5147**
 - **Backend → http://localhost:5000**
 
 ---
@@ -138,8 +138,8 @@ npm start
 
 
 ## 👨‍💻 Author
-- **Made with 💙 by Shubham**
-- **🔗 Connect on [LinkedIn](https://www.linkedin.com/in/shubham-kumar-894799290/)
+- **Made with 💛 by Pthaks**
+- **🔗 Connect on [LinkedIn](https://www.linkedin.com/in/paul-thanksgiving-800867309)
 
 ---
 

@@ -115,7 +115,7 @@ const PostJob = () => {
                                 type="number"
                                 name="salary"
                                 value={input.salary}
-                                placeholder="Write in LPA"
+                                placeholder=""
                                 onChange={changeEventHandler}
                                 className="focus-visible:ring-offset-0 focus-visible:ring-0 my-1"
                             />

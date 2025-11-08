@@ -77,7 +77,7 @@ const Login = () => {
               value={input.email}
               name="email"
               onChange={changeEventHandler}
-              placeholder="john.doe@gmail.com"
+              placeholder="email"
             />
           </div>
 
