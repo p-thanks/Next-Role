@@ -12,7 +12,7 @@ function LatestJobCards({ job }) {
     <div onClick={() => navigate(`/description/${job._id}`)} className='p-5 rounded-md shadow-lg bg-white border border-gray-100 cursor-pointer hover:scale-110 transition-all duration-600 '>
       <div>
         <h1 className='font-medium text-lg'>{job?.company?.companyName}</h1>
-        <p className='text-sm text-gray-500'>India</p>
+        <p className='text-sm text-gray-500'>{job?.location}</p>
       </div>
       <div>
         <h1 className='font-bold text-lg my-2'>{job?.title}</h1>
@@ -26,7 +26,7 @@ function LatestJobCards({ job }) {
           {job?.jobType}
         </Badge>
         <Badge className="text-[#7209b7] font-bold" variant="ghost">
-          {job?.salary} LPA
+          $ {job?.salary}
         </Badge>
 
       </div>

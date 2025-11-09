@@ -80,7 +80,7 @@ const JobDescription = () => {
                 {singleJob?.jobType} position
               </Badge>
               <Badge className="text-[#7209b7] font-bold" variant="ghost">
-                {singleJob?.salary} LPA
+                $ {singleJob?.salary}
               </Badge>
             </div>
           </div>
