@@ -26,7 +26,8 @@
 > Add screenshots or GIFs of your application here
 
 <div align="center">
-  <img src="your-screenshot-url-here.png" alt="Next Role Dashboard" width="800"/>
+  <img src="<img width="3001" height="1272" alt="image" src="https://github.com/user-attachments/assets/312f39ee-c543-4e44-afec-5e8e02fe4b30" />
+" alt="Next Role Dashboard" width="800"/>
 </div>
 
 ---
