@@ -38,7 +38,7 @@ function HeroSection() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.4, duration: 2 }}
-                    className='sm:text-4xl lg:text-5xl font-bold'>Search, Apply & <br /> Get Your <span className='text-[#6A38C2] hover:text-[#6c38c0eb] cursor-pointer' onClick={() => navigate("/browse")} >Dream Jobs</span></motion.h1>
+                    className='sm:text-4xl lg:text-5xl font-bold'>Search, Apply & <br /> Get Your <span className='text-[#6B7280] hover:text-[#4B5563] cursor-pointer' onClick={() => navigate("/browse")} >Dream Jobs</span></motion.h1>
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
