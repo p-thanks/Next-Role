@@ -17,10 +17,25 @@ connectDB()
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
+
 const corsOptions = {
-    origin: process.env.FRONTEND_URL || 'https://next-role-zeta.vercel.app',
+    origin: function (origin, callback) {
+        console.log('Request from origin:', origin); // Debug log
+        const allowedOrigins = [
+            'https://next-role-zeta.vercel.app',
+        ];
+        
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error(`Origin ${origin} not allowed`));
+        }
+    },
     credentials: true,
-}
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+};
+
 app.use(cors(corsOptions));
 
 app.get("/",(req,res)=>{
