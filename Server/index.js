@@ -27,7 +27,7 @@ app.get("/",(req,res)=>{
     res.send("Welcome to the server");
 })
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 
 app.use("/api/v1/user", userRouter);
