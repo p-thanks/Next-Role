@@ -23,6 +23,7 @@ const corsOptions = {
         console.log('Request from origin:', origin); // Debug log
         const allowedOrigins = [
             'https://next-role-zeta.vercel.app',
+            'http://localhost:5173',
         ];
         
         if (!origin || allowedOrigins.includes(origin)) {

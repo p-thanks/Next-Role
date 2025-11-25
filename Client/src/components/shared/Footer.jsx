@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='text-center mb-0'>
-                    <p className="text-sm">© 2025 NextRole. Made with Love ❤️.</p>
+                    <p className="text-sm">© 2025 NextRole. Made by pthanks.</p>
                 </div>
             </div>
         </footer>
