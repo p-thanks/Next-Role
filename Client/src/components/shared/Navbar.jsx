@@ -89,7 +89,7 @@ const Navbar = () => {
                                                     ?
                                                     <AvatarImage src={user?.profile?.profilePhoto} alt="profile" />
                                                     :
-                                                    <AvatarImage src="https://github.com/shadcn.png" alt="profile" />
+                                                    <AvatarImage src="./user.jpg" alt="profile" />
                                             }
                                         </Avatar>
                                     </PopoverTrigger>
@@ -102,7 +102,7 @@ const Navbar = () => {
                                                             ?
                                                             <AvatarImage src={user?.profile?.profilePhoto} alt="profile" />
                                                             :
-                                                            <AvatarImage src="https://github.com/shadcn.png" alt="profile" />
+                                                            <AvatarImage src="./user.jpg" alt="profile" />
                                                     }
                                                 </Avatar>
                                                 <div>
